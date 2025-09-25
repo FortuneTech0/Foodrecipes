@@ -1,0 +1,153 @@
+.body{
+  margin: 0;
+}
+
+
+.navbar{
+  background-color: black;
+  padding: 16px;
+  padding-left: 25%;
+  /* height: 200px; */
+  margin-top: -30px;
+}
+
+.navbar a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 16px;
+}
+
+.navbar:hover a{
+  background-color: darkblue;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content{
+  position: absolute;
+  display: none;
+  min-width: 160px;
+  background-color: black;
+}
+
+.dropdown-content a{
+  display: block;
+  color: white;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content a:hover{
+  background-color:red;
+}
+
+.food{
+  color: white;
+  font-size: 110px;
+  background-color: black;
+  height: 200px;
+  padding-left: 59px;
+  padding-top:100px;
+}
+
+.fa-bowl-food{
+  color: yellow;
+  font-size: 30px;
+}
+
+.fa-searchengin{
+  color: yellow;
+  font-size: 20px;
+}
+
+.fa-bookmark{
+  color: yellow;
+  font-size: 20px;
+}
+
+.fa-user{
+  color: yellow;
+  font-size: 20px;
+}
+
+
+.food1{
+  background-image: url(./food1.webp);
+  width: 1400px;
+  height: 700px;
+  background-size: cover;
+  margin-top: 30px;
+  margin-left: 28px;
+  
+}
+
+.eig{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  padding-left: 60px;
+  padding-top: 20%;
+  color: white;
+}
+
+
+.dinner{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  padding-left: 60px;
+  color: white;
+}
+
+button{
+  font-size: 20px;
+  margin-left: 70px;
+  width: 160px;
+  height: 70px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+
+.box1{
+  background-color: rgb(201, 196, 196);
+  width: 95%;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+
+.fresh{
+  font-size: 30px;
+  margin-left: 27px;
+}
+
+
+.view{
+  font-size: 20px;
+  margin-top: -60px;
+  margin-left: 84%;
+}
+
+.view a{
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(32, 32, 116);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.boxone{
+  width: 450px;
+  height: 360px;
+  background-color: blue;
+  align-content: end;
+  padding-left: 300px;
+}
